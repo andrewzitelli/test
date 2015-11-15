@@ -1,0 +1,77 @@
+body {
+  background: tomato;
+}
+
+header, nav {
+  text-align: center;
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+header{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  background: #333;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 8px;
+  font-family: Arial;
+  font-stretch: extra-condensed;
+  font-size: 10px;
+}
+
+nav a:hover {
+  color: tomato;
+}
+
+.contentColumn {
+  width: 400px;
+  float: left;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 10px;
+
+}
+
+.contentColumn a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia;
+    font-weight: bolder;
+
+}
+
+.contentColumn a:hover{
+  color: red;
+}
+
+#container {
+  width: 100%;
+  margin: 0px auto;
+
+
+}
+
+.article {
+  background-color: white;
+  padding: 10px 10px;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: black;
+  font-family: Georgia;
+  font-weight: bolder;
+  font-size: 12px;
+
+}
+
+img{
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  margin: 20px;
+}
